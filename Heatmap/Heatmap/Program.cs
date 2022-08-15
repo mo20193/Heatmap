@@ -51,10 +51,11 @@ namespace Heatmap
                 tempCoordinates = coordinates; //um auf ursprung zurückztusetzen, sonst out of range
 
                 Console.Clear();
-
+                //10
+                // 5
                 run++;
 
-            }while(run < 1000);
+            }while(run < 200);
 
             ShowField();         
 
@@ -64,7 +65,7 @@ namespace Heatmap
         private static int GetMaxNumberinField()
         {
             var max = _fields[0, 0];
-
+            
             for (var i = 0; i < 7; i++)
             {
                 for (var j = 0; j < 7; j++)
@@ -213,11 +214,18 @@ namespace Heatmap
             Console.WriteLine();
             for (int i = 0; i < 7; i++)
             {
-                Console.Write("|   ");
+               
 
                 for (int j = 0; j < 7; j++)
-                {                 
-
+                {
+                    if (_fields[i, j] > 9)
+                    {
+                        Console.Write("    ");
+                    }
+                    else
+                    {
+                        Console.Write("     ");
+                    }
                     var f = GetMaxNumberinField();
 
                     if (_fields[i, j] == f)
@@ -230,19 +238,10 @@ namespace Heatmap
                         Console.Write("   " + _fields[i, j] + "   ");
                     }
                     Console.ForegroundColor = ConsoleColor.White;
-                    //Console.Write(" ");
 
-                    if(_fields[i, j] > 9)
-                    {
-                        Console.Write(" | ");
-                    }
-                    else
-                    {
-                        Console.Write("  | ");
-                    }
-
+                    
                 }
-
+                //Console.Write("  |");
                 Console.WriteLine();
             }
         }
