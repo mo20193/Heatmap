@@ -1,0 +1,8 @@
+C:\Users\Mohammad.El-Masri\Desktop\github\Heatmap\Heatmap\Heatmap\bin\Debug\Heatmap.exe.config
+C:\Users\Mohammad.El-Masri\Desktop\github\Heatmap\Heatmap\Heatmap\bin\Debug\Heatmap.exe
+C:\Users\Mohammad.El-Masri\Desktop\github\Heatmap\Heatmap\Heatmap\bin\Debug\Heatmap.pdb
+C:\Users\Mohammad.El-Masri\Desktop\github\Heatmap\Heatmap\Heatmap\obj\Debug\Heatmap.csproj.AssemblyReference.cache
+C:\Users\Mohammad.El-Masri\Desktop\github\Heatmap\Heatmap\Heatmap\obj\Debug\Heatmap.csproj.SuggestedBindingRedirects.cache
+C:\Users\Mohammad.El-Masri\Desktop\github\Heatmap\Heatmap\Heatmap\obj\Debug\Heatmap.csproj.CoreCompileInputs.cache
+C:\Users\Mohammad.El-Masri\Desktop\github\Heatmap\Heatmap\Heatmap\obj\Debug\Heatmap.exe
+C:\Users\Mohammad.El-Masri\Desktop\github\Heatmap\Heatmap\Heatmap\obj\Debug\Heatmap.pdb
